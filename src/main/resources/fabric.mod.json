@@ -1,0 +1,30 @@
+{
+  "schemaVersion": 1,
+  "id": "donutsmpmod",
+  "version": "${version}",
+  "name": "DonutSMPMod",
+  "description": "Fabric mod for Minecraft 1.21.4 with various features",
+  "authors": [
+    "hnakao82"
+  ],
+  "contact": {
+    "homepage": "https://example.com",
+    "sources": "https://github.com/hnakao82/DonutSMPMod"
+  },
+  "license": "MIT",
+  "icon": "assets/donutsmpmod/icon.png",
+  "environment": "*",
+  "entrypoints": {
+    "main": [
+      "com.hnakao82.donutsmpmod.DonutSMPMod"
+    ]
+  },
+  "mixins": [
+    "donutsmpmod.mixins.json"
+  ],
+  "depends": {
+    "fabricloader": ">=0.15.11",
+    "fabric-api": "*",
+    "minecraft": "1.21.4"
+  }
+}
